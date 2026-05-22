@@ -3,24 +3,24 @@
 <head>
   <meta charset="UTF-8">
   <title>tr('GameGlass')</title>
-<link rel="icon" type="image/svg+xml" href="resources/icon.svg">
+  <link rel="icon" type="image/svg+xml" href="resources/icon.svg">
   <link rel="stylesheet" href="styles/main.css">
 </head>
 <body>
-  <iframe
+ <!--  <iframe
     id="gg"
     allow="autoplay; fullscreen"
   ></iframe>
   <div id="error">
-    Unable to load GameGlass.<br>Check your connection.
-  </div>
+    Unable to load GameGlass.<br>Check your connection or contact support.
+  </div> -->
 
   <script>
     icueEvents = {
       "onICUEInitialized": init
     };
 
-    const frame = document.getElementById('gg');
+    /*const frame = document.getElementById('gg');
     const err   = document.getElementById('error');
 
     const DESIGN_H = 900;
@@ -54,17 +54,18 @@
         frame.style.height   = '';
         frame.style.zoom     = '1';
       }
-    }
+    }*/
 
     function init() {
-      frame.style.display = 'block';
-      scaleToFit();
-      frame.src = 'https://app.gameglass.gg';
+      // frame.style.display = 'block';
+      // scaleToFit();
+      window.location.href = 'https://app.gameglass.gg';
+      // frame.src = 'https://app.gameglass.gg';
     }
 
-    window.addEventListener('resize', function() {
+    /*window.addEventListener('resize', function() {
       if (frame.style.display !== 'none') scaleToFit();
-    });
+    });*/
 
     if (typeof iCUE_initialized !== 'undefined' && iCUE_initialized) {
       init();
