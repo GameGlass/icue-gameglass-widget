@@ -1,7 +1,7 @@
 # Xeneon Edge GameGlass Widget
 
 > [!IMPORTANT]
-> As of iCUE 5.45.71, there seems to be a problem in Widget mode stealing the focus away from the game/windows you're currently on.  This means that keybinds setup in GameGlass will not reach the game correctly.  We trying to get this fixed with Corsair.
+> As of iCUE 5.46.67, there seems to be a problem in Widget mode stealing the focus away from the game/windows you're currently on.  This means that keybinds setup in GameGlass will not reach the game correctly.  We trying to get this fixed with Corsair.
 
 Official GameGlass iCUE widget, [read more about it here](https://support.gameglass.gg/en/articles/15127433-gameglass-on-the-xeneon-edge).
 
