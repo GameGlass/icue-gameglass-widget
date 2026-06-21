@@ -1,4 +1,4 @@
-# Xeneon Edge GameGlass Widget
+# iCUE GameGlass Widget
 
 > [!CAUTION]
 > [GameGlass Hub has released an Overlay](https://updates.gameglass.gg/changelog/gameglass-80-release) that works on the same PC without affecting your game's focus.  [Get version 8.0.0 now to see it in all its glory](https://gameglass.gg/download) (or just update your Hub)! No iCUE needed - Just GameGlass.
